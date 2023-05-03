@@ -12,6 +12,7 @@
 		8B36613F2A00C3F000155851 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B36613E2A00C3F000155851 /* Assets.xcassets */; };
 		8B3661432A00C3F000155851 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8B3661422A00C3F000155851 /* Preview Assets.xcassets */; };
 		8B615A5E2A022A5A00B8A8E4 /* ChatGPTApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B615A5D2A022A5A00B8A8E4 /* ChatGPTApi.swift */; };
+		8B615A602A024B5900B8A8E4 /* ChatMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B615A5F2A024B5900B8A8E4 /* ChatMessage.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		8B3661402A00C3F000155851 /* XCAChatGPT.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = XCAChatGPT.entitlements; sourceTree = "<group>"; };
 		8B3661422A00C3F000155851 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8B615A5D2A022A5A00B8A8E4 /* ChatGPTApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatGPTApi.swift; sourceTree = "<group>"; };
+		8B615A5F2A024B5900B8A8E4 /* ChatMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				8B36613E2A00C3F000155851 /* Assets.xcassets */,
 				8B3661402A00C3F000155851 /* XCAChatGPT.entitlements */,
 				8B3661412A00C3F000155851 /* Preview Content */,
+				8B615A5F2A024B5900B8A8E4 /* ChatMessage.swift */,
 			);
 			path = XCAChatGPT;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B36613D2A00C3EF00155851 /* ContentView.swift in Sources */,
+				8B615A602A024B5900B8A8E4 /* ChatMessage.swift in Sources */,
 				8B615A5E2A022A5A00B8A8E4 /* ChatGPTApi.swift in Sources */,
 				8B36613B2A00C3EF00155851 /* XCAChatGPTApp.swift in Sources */,
 			);

@@ -13,6 +13,7 @@ class ChatGPTApi{
     private var urlRequest: URLRequest {
         let url = URL(string: "https://api.openai.com/v1/completions")!
         var urlRequest = URLRequest(url: url)
+        urlRequest.httpMethod = "POST"
         headers.forEach{urlRequest.setValue($1, forHTTPHeaderField: $0)}
         return urlRequest
     }
